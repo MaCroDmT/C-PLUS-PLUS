@@ -1,16 +1,17 @@
 #include<iostream>
 
-int main ()
-{
-        int Number1;
-        std::cout<<"Number1 is: ";
-        std::cin>>Number1;
+int main()
+{  int value_1;
+    std::cin>>value_1;
 
-        int Number2;
-        std::cout<<"Number2 is: ";
-        std::cin>>Number2;
+    if(value_1%2==0)
+    {
+        std::cout<<"This is even number";
 
-        int result = Number1 + Number2;
-
-        std::cout<<"SUM IS = "<<result;
+    }
+    else
+    {
+        std::cout<<"This is odd number";
+    }
+   /* main(); this is not recommended for but usable in when testing repetdely */
 }
