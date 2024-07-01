@@ -2,20 +2,18 @@
 
 int main()
 {
-    int Principal;
-    std::cout<<"PRINCIPAL AMOUT IS: ";
-    std::cin>>Principal;
+    int sum=0;
+    for (int i=0;i<101;i++)
+    {
+        std::cout<<i<<'\n';
 
-    int rate;
-    std::cout<<"RATE IS: ";
-    std::cin>>rate;
+        sum=sum+i;
 
-    int time;
-    std::cout<<"TIME IS: ";
-    std::cin>>time;
 
-    int interest_RATE;
-    interest_RATE=(Principal*rate*time)/100;
 
-    std::cout<<"TOTAL INTEREST RATE IS: "<<interest_RATE;
+    }
+
+    std::cout<<sum<<'\n';
+
+
 }

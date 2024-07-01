@@ -1,18 +1,22 @@
 #include<iostream>
 
 int main()
-{
-    int my_Number;
-    std::cout<<"PLEASE ENTER AN INTEGER NUMBER: ";
-    std::cin>>my_Number;
-
-    if(my_Number/2==0)
+{   int even_count=0;
+    for(int i=0; i<20; i++)
     {
-        std::cout<<"THIS IS AN EVEN NUMBER";
+        if(i%2==0)
+        {
+            std::cout<<i<<"_THIS IS AN EVEN NUMBER\n";
+            even_count++;
+        }
+        else
+        {
+            continue;
+        }
+
+
+
 
     }
-    else
-    {
-        std::cout<<"THIS IS AN ODD NUMBER";
-    }
+    std::cout<<even_count<<"_Are THE TOTAL NUMBER OF EVEN";
 }

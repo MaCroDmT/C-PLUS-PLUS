@@ -1,17 +1,9 @@
 #include<iostream>
 
 int main()
-{  int value_1;
-    std::cin>>value_1;
-
-    if(value_1%2==0)
+{
+    for (int i=0;i<11;i++)
     {
-        std::cout<<"This is even number";
-
+        std::cout<<i<<'\n';
     }
-    else
-    {
-        std::cout<<"This is odd number";
-    }
-   /* main(); this is not recommended for but usable in when testing repetdely */
 }
